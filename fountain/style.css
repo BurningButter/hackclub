@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "DroidSansNerdFont";
+  src: url("/assets/DroidSansMNerdFont-Regular.otf") format("opentype");
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #cbeaa6;
+  font-family: "DroidSansNerdFont";
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  border: 5px solid #cbeaa6;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+}
+
+a {
+  color: #cbeaa6;
+}
+
+.thumb {
+  display: block;
+  margin-left: auto;
+  margin-right: none;
+  width: 50%;
+}
+
+.tag {
+  border: 2px solid #cbeaa6;
+  border-radius: 30px;
+  background-color: #2e2e2e;
+  text-align: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  width: 40%;
+  text-align: center;
+}
